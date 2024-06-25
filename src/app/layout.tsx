@@ -1,10 +1,19 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import React from 'react';
-import "./globals.css";
+import "@/app/globals.css";
 import i18nConfig from "@/app/i18nConfig";
+import FooterBottom from "./components/FooterBottom";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ["100", "200", "300", "400", "700"],
+  display: 'swap',
+});
+
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -12,18 +21,24 @@ export const metadata: Metadata = {
 };
 
 export function generateStaticParams() {
-    return i18nConfig.locales.map((locale) => ({ locale }));
+  return i18nConfig.locales.map((locale) => ({ locale }));
 }
 
 export default function RootLayout({
-  children, params: {locale}
+  children, params: { locale }
 }: Readonly<{
   children: React.ReactNode;
-  params: {locale: string}
+  params: { locale: string }
 }>) {
   return (
-      <html lang={locale}>
-      <body className={inter.className}>{children}</body>
+    <html lang={locale}>
+      <body className={`${poppins.className} `}>
+        <Navigation />
+        <div className="px-5 md:px-14 py-10 layout">
+          {children}
+        </div>
+        <Footer />
+      </body>
     </html>
   );
 }

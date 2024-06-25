@@ -1,6 +1,98 @@
 {
-    "home_text": "hello en",
-    "hero": {
-        "title": "we"
+    "home_text": "hello pl",
+    "home": {
+        "hero": {
+            "title": "Własność intelektualna w biznesie.",
+            "subtitle": "Doradzamy jak chronić innowacje, markę i produkt. Wspieramy klientów przy umowach i sporach dotyczących własności intelektualnej.",
+            "description": "Łączymy wiedzę prawniczą i techniczną ze zrozumieniem biznesu. Nasi eksperci pracowali przy sprawach, które ukształtowały polską praktykę własności intelektualnej. Są notowani w międzynarodowych rankingach prawniczych i wykładają na renomowanych polskich uczelniach.",
+            "button": "Usługi",
+            "url": "/expertise"
+        },
+        "reccomendation": {
+            "title": "Kancelaria rekomendowana przez",
+            "examples": [
+                {
+                    "title": "Legal500 2024",
+                    "url": "https://www.legal500.com/c/poland/intellectual-property/"
+                },
+                {
+                    "title": "Chambers Europe 2024",
+                    "url": "https://chambers.com/department/sierzant-dudzinski-intellectual-property-europe-7:34:173:1:23344606"
+                },                {
+                    "title": "WTR1000 2024",
+                    "url": "https://www.worldtrademarkreview.com/rankings/wtr-1000/profile/firm/sdp-sierzant-dudzinski"
+                }
+            ]
+        },
+        "help_clients": {
+            "title": "Obszary działania",
+            "examples": [
+                {"description": "Patenty. Zgłaszamy patenty, aby zapewnić skuteczną ochronę prawną innowacji. Prowadzimy badania patentowe, aby uniknąć wkroczenia w monopol patentowy innych osób." },
+                {"description": "Spory sądowe i administracyjne. Jesteśmy ekspertami w prowadzeniu sporów dotyczących spraw z zakresu własności intelektualnej, ochrony dóbr osobistych i zwalczania nieuczciwej konkurencji." },
+                {"description": "Znaki towarowe. Rejestrujemy i egzekwujemy prawa do znaków towarowych, aby zwiększyć wartość rynkową marki. Zwalczamy towary podrobione." },
+                {"description": "Zarządzanie portfolio praw własności intelektualnej. Zarządzamy portfolio praw IP naszych klientów na całym świecie. Przygotowujemy i wdrażamy strategię ochrony produktów, marki i technologii." },
+                {"description": "Wzory przemysłowe. Przygotowujemy i wdrażamy strategie optymalnej ochrony wyglądu zewnętrznego produktu." },
+                {"description": "Nieuczciwa konkurencja. Przeciwdziałamy nieuczciwym praktykom rynkowym konkurentów, podejmujemy działania w celu ochrony pozycji rynkowej naszych klientów." },
+                {"description": "Prawa autorskie. Maksymalizujemy korzyści wynikające z praw do utworów autorskich." },
+                {"description": "Umowy i transakcje. Wspieramy klientów w przygotowaniu i negocjowaniu umów licencyjnych, umów dot. transferu technologii, przeniesienia praw własności intelektualnej, a także umów dot. korzystania z wizerunku. Prowadzimy badania typu due diligance." },
+                {"description": "Know-how. Wdrażamy projekty dot. ochrony tajemnic przedsiębiorstwa, aby zminimalizować ryzyko pozyskania ich przez konkurentów rynkowych." },
+                {"description": "Wynalazczość pracownicza. Wspieramy w opracowaniu i wdrażaniu procedur dot. wynalazków pracowniczych i projektów racjonalizatorskich w przedsiębiorstwach." },
+                {"description": "Dobra osobiste. Reprezentujemy klientów w sprawach o ochronę dóbr osobistych firm i osób fizycznych, w szczególności dobrego imienia, wizerunku i prawa do prywatności." },
+                {"description": "Kontrakty IT. Wspieramy przy opracowywaniu, negocjowaniu i wdrażaniu umów dotyczących technologii informacyjnych. Zapewniamy bieżące wsparcie prawne w czasie realizacji złożonych projektów IT, w tym z aspektem międzynarodowym." },
+                {"description": "Szkolenia. Szkolimy kadry naszych klientów pokazując im wartość i sposób korzystania z praw własności intelektualnej." }
+            ]
+        }
+    },
+    "layout": {
+        "navigation": {
+            "expertise": {
+                "title": "expertise",
+                "href": "/expertise"
+            },
+            "news": {
+                "title": "news",
+                "href": "/news"
+            },
+            "people": {
+                "title": "people",
+                "href": "/people"
+            },
+            "about-us": {
+                "title": "about us",
+                "href": "/about-us"
+            },
+            "contact": {
+                "title": "contact",
+                "href": "/contact"
+            }
+        },
+        "footer": {
+            "top": {
+                "default_page": {
+                    "title": "Skontaktuj się z nami",
+                    "button": "Kontakt",
+                    "url": "/contact"
+                },
+                "contact_page": {
+                    "title": "Odwiedź nasze biuro",
+                    "button": "Google maps",
+                    "url": "https://maps.app.goo.gl/vsk1MXFmdnLcAC6o8"
+                }
+            },
+            "middle": {
+                "mail_url": "office@sdp.legal",
+                "mail_title": "office@sdp.legal",                
+                "linkedin_url": "https://www.linkedin.com/company/sdp-sierzant-dudzinski/",
+                "linkedin_title": "linkedin",
+                "info_1": "SDP D. Sierżant K. Dudziński Sp. k.",
+                "info_2": "ul. Łowicka 19 lok. U3",
+                "info_3": "02-574 Warszawa, Polska",
+                "info_4": "NIP: 521 401 99 79"
+            },
+            "bottom": {
+                "copyright": "© Copyright 2022 SDP - all rights reserved.",
+                "policy": "Privacy Policy"
+            }
+        }
     }
 }

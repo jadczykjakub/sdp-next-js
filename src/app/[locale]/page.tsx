@@ -2,8 +2,11 @@
 
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { usePathname, useRouter } from 'next/navigation';
-import i18nConfig from '@/app/i18nConfig';
+
+import Button from '../components/Button';
+import { useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
+import i18nConfig from '../i18nConfig';
 
 export default function Home() {
   const { t, i18n } = useTranslation();
@@ -31,9 +34,12 @@ export default function Home() {
     );
 
   return (
-    <main className="flex min-h-screen flex-col items-center gap-10 p-24">
-      <span className="text-balance font-bold">{t('home_text')}</span>
-        <div className="flex flex-row gap-4">
+    <main>
+      <span  className='bg-primary'>{t('home_text')}</span>
+        <div >
+          <Button linkTo='/' text='text' />
+
+          <h1>text</h1>
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                     onClick={handleChange('en')}>
                 English
