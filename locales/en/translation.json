@@ -46,23 +46,23 @@
     "layout": {
         "navigation": {
             "expertise": {
-                "title": "expertise",
+                "title": "Expertise",
                 "href": "/expertise"
             },
             "news": {
-                "title": "news",
+                "title": "News",
                 "href": "/news"
             },
             "people": {
-                "title": "people",
+                "title": "People",
                 "href": "/people"
             },
             "about-us": {
-                "title": "about us",
+                "title": "About us",
                 "href": "/about-us"
             },
             "contact": {
-                "title": "contact",
+                "title": "Contact",
                 "href": "/contact"
             }
         },
